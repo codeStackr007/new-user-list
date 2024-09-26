@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>User List</title>
+  </head>
+  <body>
+    <header class="mb-5">
+      <div class="container mt-5">
+        <div class="d-flex justify-content-end align-items-center">
+          <div class="btn-group-sm" role="group" aria-label="themeBtn">
+            <button type="button" class="btn btn-dark" data-bs-theme-value="dark"><i class="fa-regular fa-moon fa-lg"></i></button>
+            <button type="button" class="btn btn-light" data-bs-theme-value="light"><i class="fa-regular fa-sun fa-lg"></i></button>
+          </div>
+        </div>
+        <h2 class="mb-4">New Users</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input type="text" class="form-control form-control-lg" placeholder="Search Users">
+                </div>
+            </div>
+
+            <div class="col-md-8 d-flex justify-content-end user-list align-items-center">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Reputation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active btn btn-primary text-bg-primary" aria-current="page" href="#">New Users</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Editors</a>
+                </li>
+              </ul>
+            </div>
+            <!-- User List -->
+            <div class="container">
+              <!-- Row 1 -->
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-3 mt-4" 
+                  data-bs-container="body"
+                  data-bs-toggle="popover"
+                  data-bs-placement="top"
+                  data-bs-content="Email: johndoe243@gmail.com"
+                  >
+                    <div class="card-body">
+                      <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/men/31.jpg" alt="User Image" class="img-fluid rounded-circle">
+                        <div class="user-info">
+                          <h5 class="card-title">John Doe</h5>
+                          <h6 class="card-text">Troy, MI</h6>
+                          <span class="badge bg-primary">Tech</span>
+                          <span class="badge bg-primary">Travel</span><br>
+                          <span class="badge bg-primary">Nature</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-3 mt-4" 
+                  data-bs-container="body"
+                  data-bs-toggle="popover"
+                  data-bs-placement="top"
+                  data-bs-content="Email: johndoe243@gmail.com"
+                  >
+                    <div class="card-body">
+                      <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/men/0.jpg" alt="User Image" class="img-fluid rounded-circle">
+                        <div class="user-info">
+                          <h5 class="card-title">Brad Simmons</h5>
+                          <h6 class="card-text">Fort Wort, TX</h6>
+                          <span class="badge bg-primary">Photography</span>
+                          <span class="badge bg-primary">Tech</span><br>
+                          <span class="badge bg-primary">Music</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-3 mt-4" 
+                  data-bs-container="body"
+                  data-bs-toggle="popover"
+                  data-bs-placement="top"
+                  data-bs-content="Email: kimjoohe543@gmail.com"
+                  >
+                    <div class="card-body">
+                      <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/women/60.jpg" alt="User Image" class="img-fluid rounded-circle">
+                        <div class="user-info">
+                          <h5 class="card-title">Kim Joo-hee</h5>
+                          <h6 class="card-text">Osaka, JPN</h6>
+                          <span class="badge bg-primary">Fashion</span>
+                          <span class="badge bg-primary">STEM</span><br>
+                          <span class="badge bg-primary">Architecture</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+              <!-- Row 2 -->
+                <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-3 mt-4" 
+                  data-bs-container="body"
+                  data-bs-toggle="popover"
+                  data-bs-placement="top"
+                  data-bs-content="Email: thomasceelewis253@gmail.com"
+                  >
+                    <div class="card-body">
+                      <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/men/53.jpg" alt="User Image" class="img-fluid rounded-circle">
+                        <div class="user-info">
+                          <h5 class="card-title">Thomas Lewis</h5>
+                          <h6 class="card-text">Lynn, MA</h6>
+                          <span class="badge bg-primary">Vintage</span>
+                          <span class="badge bg-primary">Clothing</span><br>
+                          <span class="badge bg-primary">Sports</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-3 mt-4" 
+                  data-bs-container="body"
+                  data-bs-toggle="popover"
+                  data-bs-placement="top"
+                  data-bs-content="Email: anniepatterson53@gmail.com"
+                  >
+                    <div class="card-body">
+                      <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="User Image" class="img-fluid rounded-circle">
+                        <div class="user-info">
+                          <h5 class="card-title">Annie Patterson</h5>
+                          <h6 class="card-text">Boston, MA</h6>
+                          <span class="badge bg-primary">Software</span>
+                          <span class="badge bg-primary">Design</span><br>
+                          <span class="badge bg-primary">UI/UX</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card mb-3 mt-4" 
+                  data-bs-container="body"
+                  data-bs-toggle="popover"
+                  data-bs-placement="top"
+                  data-bs-content="Email: johnmicheal543@gmail.com"
+                  >
+                    <div class="card-body">
+                      <div class="d-flex gap-3">
+                        <img src="https://randomuser.me/api/portraits/men/91.jpg" alt="User Image" class="img-fluid rounded-circle">
+                        <div class="user-info">
+                          <h5 class="card-title">John Micheal</h5>
+                          <h6 class="card-text">Lagos, NG</h6>
+                          <span class="badge bg-primary">Engineering</span>
+                          <span class="badge bg-primary">Diving</span><br>
+                          <span class="badge bg-primary">Artist</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+               
+              <!-- Pagination -->
+              <nav aria-label="Page navigation">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo; Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">Next &raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="DARKMO~1.JS"></script>
+      <script>
+          const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+          const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+      </script>
+    </body>
+  </html>

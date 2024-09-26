@@ -1,0 +1,13 @@
+@media(max-width:767px){
+  .user-list{
+   justify-content: center !important;
+   margin-top: 20px;
+  }
+}
+
+@media(max-width:767px){
+ .pagination{
+  justify-content: center !important;
+  margin-top: 20px;
+ }
+}
